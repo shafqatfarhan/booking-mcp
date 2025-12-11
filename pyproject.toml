@@ -1,0 +1,10 @@
+[project]
+name = "booking-mcp"
+version = "0.1.0"
+description = "MCP server for communicating with booking.com APIs"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp[standard]>=2.13.3",
+    "mcp[cli]>=1.22.0",
+]
